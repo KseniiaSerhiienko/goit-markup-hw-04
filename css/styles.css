@@ -190,8 +190,9 @@ img {
 }
 
 .contacts-list .icon{
-    width: 16px;
-    height: 12px;
+    width: 18px;
+    height: 14px;
+    margin-right: 10px;
     stroke: var(--primary-text-color);
 }
 
@@ -328,6 +329,7 @@ img {
 
 .card-text{
     margin-top: 10px;
+    margin-bottom: 16px;
 }
 .team-card > .team-item{
     flex-basis: calc((100% - 120px) /4);
@@ -365,17 +367,21 @@ img {
 }
 
 .clients-icon-link{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 170px;
+    height: 90px;
+
     border: 1px solid #AFB1B8;
     fill: #AFB1B8;
     border-radius: 6%;
-    padding: 24px 64px;
-    width: 170px;
-    height: 90px;
 }
 
 .clients-icon-link:hover,
 .clients-icon-link:focus{
+    fill: var(--accent-color);
     border-color: var(--accent-color);
 }
 .clients-icon-item:hover .icon,
@@ -444,6 +450,7 @@ img {
 }
 .footer-container{
     display: flex;
+    align-items: baseline;
     
     width: 1200px;
     padding-left: 15px;
@@ -458,11 +465,6 @@ img {
     
 }
 
-
-.footer-item-link{
-    margin-top: 72px;
-    margin-bottom: 100px;
-}
 
 .footer-icons-link{
     border-radius: 50%;
@@ -481,7 +483,27 @@ img {
 .footer-subtitle{
     color: #FFFFFF;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
+
+.footer-icons-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    fill: #FFFFFF;
+}
+
+
+.footer-icons-link:hover,
+.footer-icons-link:focus{
+    fill:#FFFFFF;
+    background-color: var(--accent-color);
+}
+        
 .logo-second-item{
     font-family: Raleway;
     font-weight: bold;
