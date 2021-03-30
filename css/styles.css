@@ -211,10 +211,10 @@ img {
     
     background: #2F303A;
     text-align: center;
+    background-color: #C4C4C4;
     background-image: url(../images/hero.jpg);
     background-image: linear-gradient(
     to right, #2F303A 40%);
-    background-color: #C4C4C4;
     background-size:cover;
     
 }
