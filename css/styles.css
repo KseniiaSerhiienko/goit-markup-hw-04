@@ -367,6 +367,7 @@ img {
 .clients-icon-link{
     display: block;
     border: 1px solid #AFB1B8;
+    fill: #AFB1B8;
     border-radius: 6%;
     padding: 24px 64px;
     width: 170px;
